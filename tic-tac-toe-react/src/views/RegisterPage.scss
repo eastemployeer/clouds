@@ -1,0 +1,30 @@
+.RegisterPage {
+    min-height: 100vh;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../public/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  
+    .segment {
+      padding: 2em !important;
+    }
+  
+    .formContainer {
+      display: flex;
+      flex-direction: row;
+      gap: 2em;
+      margin-bottom: 1em;
+  
+      .formColumn {
+        margin: 0;
+        flex: 1;
+        width: 0;
+        min-width: 19em;
+      }
+    }
+  }
+  

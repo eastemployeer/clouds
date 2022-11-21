@@ -1,0 +1,36 @@
+{
+  "compileOnSave": false,
+  "ts-node": {
+    "files": true
+  },
+  "typeRoots": ["./global.d.ts", "./node_modules/@types"],
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es2015",
+      "es2016",
+      "es2019",
+      "DOM.Iterable"
+    ],
+    "jsx": "react",
+    "target": "es2020",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "removeComments": false,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "downlevelIteration": true
+  }
+}
